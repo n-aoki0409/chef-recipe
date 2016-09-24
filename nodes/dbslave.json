@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[yum-epel]",
+    "recipe[mysql]"
+  ],
+  "automatic": {
+    "ipaddress": "dbslave"
+  }
+}
